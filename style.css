@@ -121,15 +121,18 @@
     /* background-color: red; */
     display: flex;
     justify-content: center;
+    grid-template-columns: auto auto auto;
+    /* grid-template-columns: repeat(3, 1fr)  */
     /* align-items: center; */
 }
 
 .loc-sec .main-sec {
     background-color: white;
     display: flex;
-    column-gap: 20px;
+    grid-template-columns: repeat(3, 1fr) ;
+    column-gap: 10  px;
     border-radius: 10px;
-    height: 160px;
+    height: 100px;
     justify-content: center;
     align-items: center;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -163,8 +166,8 @@
 }
 
 .car-sec {
-    height: 192vh;
-    padding: 30px;
+    height: 210vh;
+    padding: 10px;
     /* justify-content: center; */
     flex-direction: column;
     display: flex;
@@ -192,7 +195,9 @@
     /* background: red; */
     overflow: hidden;
     width: 365px;
-    padding: 20px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -276,8 +281,8 @@
 }
 
 .support-sec {
-    height: 390px;
-    padding: 30px;
+    height: 500px;
+    padding: 10px;
     /* justify-content: center; */
     flex-direction: column;
     display: flex;
@@ -341,7 +346,7 @@
 
 .achie-sec {
     height: 390px;
-    padding: 30px;
+    padding: 10px;
     justify-content: center;
     flex-direction: column;
     display: flex;
